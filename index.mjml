@@ -1,0 +1,150 @@
+<mjml>
+  <mj-head>
+    <mj-style> *{ box-sizing: border-box; padding: 0; margin: 0; } 
+     @media only screen and (max-width: 400px) {
+    .button {
+    padding: 14px 60px !important;
+     }
+    }
+
+     @media only screen and (max-width: 300px) {
+    .button {
+    padding: 14px 50px !important;
+  }
+}
+
+     @media only screen and (max-width: 250px) {
+    .button {
+    padding: 14px 20px !important;
+    font-size: 20px !important;
+  }
+}
+    </mj-style>
+
+    <mj-style inline="inline">
+      .header div{ font-size: 24px !important; color: #fff !important; }
+
+
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#1f2127">
+    <mj-raw><!-- HEADER --></mj-raw>
+    <mj-section background-color="#2d3039" padding="0">
+      <mj-column width="180px">
+        <mj-image
+          src="img/Steam-logo-background.jpg"
+          href="https://store.steampowered.com/"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw><!-- steam name --></mj-raw>
+    <mj-section background-color="#141619" padding-bottom="30px">
+      <mj-column>
+        <mj-text color="#d0d2d2" font-size="22px">Hello ScreaM,</mj-text>
+        <mj-text color="#d0d2d2" font-size="16px" line-height="22px"
+          >You are receiving this email because you have played:<br /><a
+            style="color: #d0d2d2"
+            href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"
+          >
+            Counter-Strike: Global Offensive</a
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw><!-- First Content --></mj-raw>
+    <mj-section background-color="#141619" padding-bottom="40px">
+      <mj-column>
+        <mj-text css-class="header" padding-bottom="18px">
+          Introducing Operation Broken Fang
+        </mj-text>
+        <mj-image
+          src="img/image-1.png"
+          padding="0"
+          href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw><!-- Join the fight --></mj-raw>
+    <mj-section background-color="#141619" padding-bottom="0">
+      <mj-column>
+        <mj-text css-class="header">Join the Fight! </mj-text>
+        <mj-text color="#d0d2d2" font-size="14px" line-height="20px"
+          >Join the fight and take part in Operation Broken Fang. New challenges
+          await, with the all-new Retakes and the exclusive Broken Fang Premier.
+          Play new maps in every game mode, and see how you measure up in the
+          Operation Stats page. Complete weekly missions and choose from a
+          variety of rewards including new agents, weapon collections, stickers,
+          patches, and graffiti.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw><!-- Links --></mj-raw>
+    <mj-section background-color="#141619" padding-top="0">
+      <mj-column
+        ><mj-text padding-bottom="0" color="#d0d2d2" font-size="14px"
+          ><a href="https://store.steampowered.com/" style="color: #d0d2d2"
+            >Purchase the Operation Pass here.</a
+          ></mj-text
+        >
+        <mj-text color="#d0d2d2" font-size="14px"
+          ><a
+            href="https://www.counter-strike.net/brokenfang"
+            style="color: #d0d2d2"
+            >See the official Operation Broken Fang page here.</a
+          ></mj-text
+        >
+
+        <mj-image padding="0" padding-top="18px" src="img/image-2.png" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw><!-- play button --></mj-raw>
+    <mj-section background-color="#141619" padding-top="80px">
+      <mj-column>
+        <mj-text align="center">
+          <a class="button"
+            style="
+              text-transform: capitalize;
+              padding: 16px 120px;
+              background-color: #188cde;
+              color: #fff;
+              font-size: 22px;
+            "
+            >Play now!</a
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw><!-- unsubscribe --></mj-raw>
+    <mj-section background-color="#141619">
+      <mj-column>
+        <mj-text color="#d0d2d2" font-size="11px" line-height="20px"
+          >We're sending you this event notification email because you've
+          played: Counter-Strike: Global Offensive
+        </mj-text>
+        <mj-text color="#d0d2d2" font-size="11px" line-height="20px"
+          >If you prefer not to receive game-specific notification mails in the
+          future, you can <a style="color: #d0d2d2" href="https://store.steampowered.com/account/emailoptout?token=57c7f8a6fc99b27a559ed9a34f8b0991303aeed335b1c80c0ff59b587459aa1e7be333403a0ce51c428fba67481be544&event_optout_appid=730">Ignore just e-mails about Counter-Strike: Global
+          Offensive</a> or <a style="color: #d0d2d2" href="https://store.steampowered.com/account/emailoptout?token=57c7f8a6fc99b27a559ed9a34f8b0991303aeed335b1c80c0ff59b587459aa1e7be333403a0ce51c428fba67481be544&event_optout=1">edit your e-mail preferences to unsubscribe<a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw><!-- Footer --></mj-raw>
+    <mj-section background-color="#000000" padding="0">
+     <mj-column padding-top="0" ><mj-text>
+        <img src="img/valve-logo.jpg" align="left" style="padding: 0; margin: 0;padding-right: 20px; height: 30px"/>
+        <p style="color: #fff; font-size: 9px; line-height: 1.5">© Valve Corporation <br/> PO Box 1688 Bellevue, WA 98009 <br/> All rights reserved. All trademarks are property of their respective owners in the US and other countries.</p>
+        <mj-text>
+      </mj-column>
+
+
+    </mj-section>
+  </mj-body>
+</mjml>
