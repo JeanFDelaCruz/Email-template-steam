@@ -108,12 +108,14 @@
       <mj-column>
         <mj-text align="center">
           <a class="button"
+            href="https://store.steampowered.com/news/app/730/view/2922236321922618738"
             style="
               text-transform: capitalize;
               padding: 16px 120px;
               background-color: #188cde;
               color: #fff;
               font-size: 22px;
+              text-decoration: none;
             "
             >Play now!</a
           >
