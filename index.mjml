@@ -92,7 +92,7 @@
           ></mj-text
         >
         <mj-text color="#d0d2d2" font-size="14px"
-          ><a
+          ><a target="_blank"
             href="https://www.counter-strike.net/brokenfang"
             style="color: #d0d2d2"
             >See the official Operation Broken Fang page here.</a
